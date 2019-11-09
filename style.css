@@ -114,15 +114,71 @@ h2 {
 }
 
 .posts {
-    height: 30vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 
+.articles {
+    height: 55vh;
+    width: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.post {
+    width: 48%;
+    height: 100%;
+}
+
+.post p {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 1em;
+}
+
+.post a {
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex-direction: column;
+    padding-bottom: 0.5vh;
+}
+
+.add-post-title {
+    font-size: 1.5em;
+    font: bold;
+    color: white;
+    background-color: #F6BC00;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.older-post {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 0.95em;
+}
+
+.older-post a {
+    color: black;
+    text-decoration: none;
+}
+
 .skills {
-    height: 45vh;
+    height: 50vh;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
