@@ -122,12 +122,26 @@ h2 {
 }
 
 .skills {
-    height: 30vh;
+    height: 45vh;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.skillset {
+    height: 30vh;
+    width: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-group {
+    font-size: 1.1em;
+    padding: 4px;
+    text-align: center;
 }
 
 .big-links {
