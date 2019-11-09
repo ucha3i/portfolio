@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url(./laptop1.jpg);
+    background-image: url(./pens.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 49vh;
@@ -29,7 +29,7 @@ header {
 
 h1 {
     font-size: 2.4em;
-    font: bold;
+    font: bolder;
     color: #FFFFFF;
     opacity: 1;
     margin-block-start: 0em;
@@ -38,7 +38,7 @@ h1 {
 
 h2 {
     font-size: 1.6em;
-    font: bold;
+    font: bolder;
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-bottom: 0.4em;
@@ -81,6 +81,10 @@ h2 {
     opacity: 1;
 }
 
+.description img {
+    width: 7%;
+}
+
 .tech {
     height: 30vh;
     display: flex;
@@ -93,7 +97,11 @@ h2 {
     font-size: 1.7em;
     font: bold;
     color: white;
-    background-color: red;
+    background-color: #F6BC00;
+    padding-top: 2px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 10px;
 }
 
 .projects {
@@ -131,9 +139,14 @@ h2 {
 
 .contact {
     height: 30vh;
-    background-color: darkgreen;
+    background-color: #F6BC00;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
