@@ -135,7 +135,12 @@ h2 {
     width: 110vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-around; */
+}
+
+.skillset .skills-group {
+    width: 33%;
+    height: 100%;
 }
 
 .skills-group {
