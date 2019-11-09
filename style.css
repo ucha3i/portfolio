@@ -12,14 +12,19 @@ header {
     height: 49vh;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
+    align-content: center;
+    justify-content: center;
+}
+
+.personal-data {
+    width: 110vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .surname {
     text-align: left;
     margin-top: 14em;
-    margin-left: 2.4em;
 }
 
 h1 {
@@ -39,17 +44,25 @@ h2 {
     padding-bottom: 0.4em;
 }
 
+.right-side {
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .picture {
     background-image: url(./photo.JPG);
     height: 210px;
     width: 210px;
     border-radius: 50%;
     background-size: cover;
-    margin-top: 13em;
-    margin-right: 1.7em;
+    margin-top: 9em;
+    /*  margin-right: 1.7em; */
 }
-
-.links {}
 
 .top-section {
     height: 30vh;
