@@ -519,7 +519,7 @@ p {
 
 /* SMARTPHONES */
 
-@media (min-width: 376) and (max-width: 667) {
+@media (min-width: 376px) and (max-width: 667px) {
     header {
         background-image: url(./pens667.jpg);
         background-size: cover;
