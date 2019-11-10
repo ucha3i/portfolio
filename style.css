@@ -568,6 +568,7 @@ p {
         font-size: 1.5em;
     }
     .description {
+        width: 60vh;
         text-align: center;
         font-size: 1em;
         width: 50vh;
@@ -579,6 +580,7 @@ p {
     }
     .tech {
         height: 30vh;
+        width: 60vh;
         display: flex;
         flex-direction: column;
         align-items: center;
