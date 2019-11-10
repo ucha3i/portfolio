@@ -132,6 +132,8 @@ h2 {
 .post {
     width: 48%;
     height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .post p {
@@ -169,7 +171,7 @@ h2 {
     text-align: center;
     margin-block-start: 0;
     margin-block-end: 0;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 .older-post a {
@@ -194,12 +196,25 @@ h2 {
     /* justify-content: space-around; */
 }
 
-.skillset .skills-group {
+.skillset .skills-group-1 {
     width: 33%;
     height: 100%;
+    text-align: center;
 }
 
-.skills-group {
+.skillset .skills-group-2 {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.skillset .skills-group-3 {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.new-skills-group {
     font-size: 1.1em;
     padding: 4px;
     text-align: center;
@@ -235,4 +250,248 @@ p {
     margin-block-end: 0;
     font-size: 1.2em;
     padding-bottom: 10px;
+}
+
+
+/* RESPONSIVNESS */
+
+@media (min-width: 668px) and (max-width: 1024px) {
+    header {
+        background-image: url(./1024.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 49vh;
+        padding: 30px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .personal-data {
+        width: 70vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .surname {
+        text-align: left;
+        margin-top: 4em;
+    }
+    .picture {
+        background-image: url(./photo.JPG);
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        border: white solid 3px;
+        background-size: cover;
+        margin-top: 7em;
+    }
+    .section-title {
+        font-size: 1.5em;
+    }
+    .description {
+        text-align: center;
+        font-size: 1em;
+        width: 70vh;
+        color: #000000;
+        opacity: 1;
+    }
+    .tech {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .posts {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px auto;
+        padding: 10px;
+    }
+    .articles {
+        display: none
+    }
+    .additional-articles {
+        display: none;
+    }
+    .older-post {
+        text-align: center;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 1em;
+    }
+    .older-post a {
+        color: black;
+        text-decoration: none;
+    }
+    .skills {
+        height: 80vh;
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-evenly; */
+    }
+    .skillset {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skills-group {
+        flex-wrap: wrap;
+        font-size: 1em;
+        padding: 4px;
+        text-align: center;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: url(./1024.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .contact-title {
+        font-size: 1.5em;
+        font: bold;
+        color: white;
+    }
+}
+
+@media (max-width: 667px) {
+    header {
+        background-image: url(./pens667.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 40vh;
+        padding: 30px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 2.1em;
+        font: bolder;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    h2 {
+        font-size: 1.3em;
+        font: bolder;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        padding-bottom: 0.4em;
+    }
+    .personal-data {
+        width: 60vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .surname {
+        width: 50%;
+        text-align: left;
+        margin-top: 4em;
+    }
+    .picture {
+        background-image: url(./photo.JPG);
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        border: white solid 3px;
+        background-size: cover;
+        margin-top: 7em;
+    }
+    .section-title {
+        font-size: 1.5em;
+    }
+    .description {
+        text-align: center;
+        font-size: 1em;
+        width: 50vh;
+        color: #000000;
+        opacity: 1;
+    }
+    .description img {
+        width: 9%;
+    }
+    .tech {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .posts {
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px auto;
+        padding: 10px;
+    }
+    .articles {
+        display: none
+    }
+    .additional-articles {
+        display: none;
+    }
+    .older-post {
+        text-align: center;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 1em;
+    }
+    .older-post a {
+        color: black;
+        text-decoration: none;
+    }
+    .skills {
+        height: 55vh;
+        background: #F4F4F4 0% 0% no-repeat padding-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skillset {
+        width: 48vh;
+        padding: 4em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .skills-group-1 {
+        font-size: 1em;
+        padding-bottom: 2em;
+    }
+    .skills-group-2 {
+        font-size: 1em;
+        padding-bottom: 2em;
+    }
+    .skills-group-3 {
+        display: none;
+    }
+    .new-skills-group {
+        font-size: 1em;
+        padding-bottom: 2em;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-image: url(./pens667.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .contact-title {
+        font-size: 1.5em;
+        font: bold;
+        color: white;
+    }
 }
