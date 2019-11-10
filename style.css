@@ -104,6 +104,12 @@ h2 {
     padding-left: 10px;
 }
 
+@media (min-width: 1024px) {
+    .mobile-section-title {
+        display: none;
+    }
+}
+
 .projects {
     height: 120vh;
     background: #F4F4F4 0% 0%;
@@ -142,12 +148,7 @@ h2 {
     width: 50%;
     padding-right: 10px;
     padding-left: 10px;
-}
-
-@media (min-width: 1024px) {
-    .post-section-title-mobile {
-        display: none;
-    }
+    justify-content: start;
 }
 
 .post p {
@@ -219,7 +220,6 @@ h2 {
     width: 110vh;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
 }
 
 .skillset .skills-group-1 {
@@ -286,7 +286,7 @@ p {
         background-image: url(./1024.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 49vh;
+        height: 43vh;
         padding: 30px;
         display: flex;
         align-content: center;
@@ -321,48 +321,53 @@ p {
         opacity: 1;
     }
     .tech {
-        height: 30vh;
+        height: 28vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
-    .posts {
-        height: 30vh;
+    .projects {
+        height: 105vh;
+        background: #F4F4F4 0% 0%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15px auto;
-        padding: 10px;
+        justify-content: space-evenly;
     }
-    .post-section-title-mobile {
+    .additional-grey {
         display: none;
+    }
+    .posts {
+        height: 76vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .container {
-        display: none
+        height: 80%;
+        width: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
-    .additional-articles {
+    .post {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .additional-white {
         display: none;
     }
-    .older-post {
-        text-align: center;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        font-size: 1em;
-    }
-    .older-post a {
-        color: black;
-        text-decoration: none;
-    }
     .skills {
-        height: 80vh;
+        height: 50vh;
         background: #F4F4F4 0% 0% no-repeat padding-box;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-evenly; */
     }
     .skillset {
+        height: 20vh;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -442,24 +447,27 @@ p {
         opacity: 1;
     }
     .tech {
-        height: 30vh;
+        height: 22vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
-    .posts {
+    .projects {
+        display: none;
+    }
+    .additional-grey {
         height: 30vh;
+        background: #F4F4F4 0% 0%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15px auto;
-        padding: 10px;
+        justify-content: space-evenly;
     }
-    .posts .section-title {
+    .add-section-title {
         display: none;
     }
-    .post-section-title-mobile {
+    .mobile-section-title {
         font-size: 1.5em;
         font: bold;
         color: white;
@@ -469,50 +477,48 @@ p {
         padding-bottom: 2px;
         padding-left: 10px;
     }
-    .container {
-        display: none
-    }
-    .additional-articles {
+    .posts {
         display: none;
     }
-    .older-post {
-        text-align: center;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        font-size: 1em;
-    }
-    .older-post a {
-        color: black;
-        text-decoration: none;
+    .additional-white {
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .skills {
-        height: 80vh;
+        height: 63vh;
         background: #F4F4F4 0% 0% no-repeat padding-box;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-evenly; */
     }
     .skillset {
+        width: 70vh;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
     }
     .skillset .skills-group-1 {
-        width: 33%;
-        height: 100%;
+        width: 48%;
+        height: 50%;
         text-align: center;
     }
     .skillset .skills-group-2 {
-        width: 33%;
-        height: 100%;
+        width: 48%;
+        height: 50%;
         text-align: center;
     }
     .skillset .skills-group-3 {
-        width: 33%;
-        height: 100%;
+        width: 100%;
+        height: 50%;
         text-align: center;
+    }
+    .new-skills-group {
+        font-size: 1em;
+        padding-top: 2em;
     }
     .contact {
         display: flex;
@@ -567,7 +573,7 @@ p {
     .surname {
         width: 50%;
         text-align: left;
-        margin-top: 4em;
+        margin-top: 3.3em;
     }
     .picture {
         background-image: url(./photo.JPG);
@@ -599,18 +605,13 @@ p {
         align-items: center;
         justify-content: space-evenly;
     }
-    .posts {
-        height: 30vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 15px auto;
-        padding: 10px;
-    }
-    .posts .section-title {
+    .projects {
         display: none;
     }
-    .post-section-title-mobile {
+    .add-section-title {
+        display: none;
+    }
+    .mobile-section-title {
         font-size: 1.5em;
         font: bold;
         color: white;
@@ -620,21 +621,23 @@ p {
         padding-bottom: 2px;
         padding-left: 10px;
     }
-    .articles {
-        display: none
+    .additional-grey {
+        height: 35vh;
+        background: #F4F4F4 0% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .additional-articles {
+    .posts {
         display: none;
     }
-    .older-post {
-        text-align: center;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        font-size: 1em;
-    }
-    .older-post a {
-        color: black;
-        text-decoration: none;
+    .additional-white {
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .skills {
         height: 55vh;
@@ -751,18 +754,24 @@ p {
         align-items: center;
         justify-content: space-evenly;
     }
-    .posts {
-        height: 30vh;
+    .projects {
+        display: none;
+    }
+    .additional-grey {
+        height: 35vh;
+        background: #F4F4F4 0% 0%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 15px auto;
-        padding: 10px;
+        justify-content: space-evenly;
     }
-    .posts .section-title {
+    .add-section-title {
         display: none;
     }
-    .post-section-title-mobile {
+    .add-links {
+        width: 30vh;
+    }
+    .mobile-section-title {
         font-size: 1.5em;
         font: bold;
         color: white;
@@ -772,21 +781,15 @@ p {
         padding-bottom: 2px;
         padding-left: 10px;
     }
-    .articles {
-        display: none
-    }
-    .additional-articles {
+    .posts {
         display: none;
     }
-    .older-post {
-        text-align: center;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        font-size: 1em;
-    }
-    .older-post a {
-        color: black;
-        text-decoration: none;
+    .additional-white {
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .skills {
         height: 55vh;
