@@ -518,7 +518,7 @@ p {
         background-image: url(./pens667.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 40vh;
+        height: 35vh;
         padding: 30px;
         display: flex;
         align-content: center;
@@ -700,7 +700,7 @@ p {
     .surname {
         width: 50%;
         text-align: left;
-        margin-top: 4em;
+        margin-top: 3.8em;
     }
     .picture {
         background-image: url(./photo.JPG);
