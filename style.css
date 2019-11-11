@@ -412,7 +412,7 @@ p {
         background-image: url(./1024.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 40vh;
+        height: 45vh;
         padding: 30px;
         display: flex;
         align-content: center;
@@ -447,7 +447,7 @@ p {
         opacity: 1;
     }
     .tech {
-        height: 22vh;
+        height: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -457,7 +457,7 @@ p {
         display: none;
     }
     .additional-grey {
-        height: 30vh;
+        height: 31vh;
         background: #F4F4F4 0% 0%;
         display: flex;
         flex-direction: column;
@@ -481,7 +481,7 @@ p {
         display: none;
     }
     .additional-white {
-        height: 25vh;
+        height: 27vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -544,7 +544,7 @@ p {
         background-image: url(./pens667.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 33vh;
+        height: 40vh;
         padding: 30px;
         display: flex;
         align-content: center;
@@ -694,7 +694,7 @@ p {
         background-image: url(./pens667.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 35vh;
+        height: 38vh;
         padding: 30px;
         display: flex;
         align-content: center;
