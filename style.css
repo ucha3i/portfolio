@@ -694,7 +694,7 @@ p {
         background-image: url(./pens667.jpg);
         background-size: cover;
         background-attachment: fixed;
-        height: 38vh;
+        height: 280px;
         padding: 30px;
         display: flex;
         align-content: center;
@@ -748,7 +748,7 @@ p {
         width: 9%;
     }
     .tech {
-        height: 30vh;
+        height: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -758,7 +758,7 @@ p {
         display: none;
     }
     .additional-grey {
-        height: 41vh;
+        height: 300px;
         background: #F4F4F4 0% 0%;
         display: flex;
         flex-direction: column;
@@ -785,14 +785,14 @@ p {
         display: none;
     }
     .additional-white {
-        height: 37vh;
+        height: 240px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
     .skills {
-        height: 52vh;
+        height: 470px;
         background: #F4F4F4 0% 0% no-repeat padding-box;
         display: flex;
         align-items: center;
