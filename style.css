@@ -207,7 +207,7 @@ h2 {
 }
 
 .skills {
-    height: 50vh;
+    height: 40vh;
     background: #F4F4F4 0% 0%;
     display: flex;
     flex-direction: column;
@@ -216,7 +216,7 @@ h2 {
 }
 
 .skillset {
-    height: 30vh;
+    height: 20vh;
     width: 110vh;
     display: flex;
     align-items: center;
