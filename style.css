@@ -270,10 +270,10 @@ h2 {
 }
 
 .social-media {
+    width: 90vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 90vh;
 }
 
 .social-media a {
@@ -292,9 +292,11 @@ h2 {
     height: 60px;
 }
 
-.social-media-names {
-    width: 500px;
+
+/* .social-media-names {
+    width: 63vh;
     display: flex;
+    text-align: center;
     justify-content: space-between;
 }
 
@@ -303,7 +305,7 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-}
+} */
 
 .contact {
     height: 30vh;
@@ -578,6 +580,17 @@ p {
         font-size: 1em;
         padding-top: 2em;
     }
+    .big-links {
+        height: 270px;
+    }
+    .social-media a {
+        width: 90px;
+        height: 90px;
+    }
+    .social-media img {
+        width: 50px;
+        height: 50px;
+    }
     .contact {
         display: flex;
         flex-direction: column;
@@ -730,6 +743,20 @@ p {
     .new-skills-group {
         font-size: 1em;
         padding-bottom: 2em;
+    }
+    .big-links {
+        height: 250px;
+    }
+    .social-media {
+        width: 50vh;
+    }
+    .social-media a {
+        width: 85px;
+        height: 85px;
+    }
+    .social-media img {
+        width: 45px;
+        height: 45px;
     }
     .contact {
         display: flex;
@@ -885,6 +912,20 @@ p {
     .new-skills-group {
         font-size: 1em;
         padding-bottom: 2em;
+    }
+    .big-links {
+        height: 220px;
+    }
+    .social-media {
+        width: 50vh;
+    }
+    .social-media a {
+        width: 70px;
+        height: 70px;
+    }
+    .social-media img {
+        width: 40px;
+        height: 40px;
     }
     .contact {
         display: flex;
