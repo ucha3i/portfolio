@@ -729,19 +729,19 @@ p {
     .skills-group-1 {
         font-size: 1em;
         padding-top: 1em;
-        padding-bottom: 2em;
+        /* padding-bottom: 2em; */
     }
     .skills-group-2 {
         font-size: 1em;
         padding-top: 1em;
-        padding-bottom: 2em;
+        /* padding-bottom: 2em; */
     }
     .skills-group-3 {
         display: none;
     }
     .new-skills-group {
         font-size: 1em;
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
     .big-links {
         height: 250px;
@@ -897,20 +897,20 @@ p {
     }
     .skills-group-1 {
         font-size: 1em;
-        padding-top: 1em;
-        padding-bottom: 2em;
+        padding-top: 0.5em;
+        padding-bottom: 0em;
     }
     .skills-group-2 {
         font-size: 1em;
-        padding-top: 1em;
-        padding-bottom: 2em;
+        padding-top: 0.5em;
+        padding-bottom: 0em;
     }
     .skills-group-3 {
         display: none;
     }
     .new-skills-group {
         font-size: 1em;
-        padding-bottom: 2em;
+        padding-top: 0.6em;
     }
     .big-links {
         height: 220px;
