@@ -32,15 +32,15 @@ h1 {
     font: bold;
     color: #FFFFFF;
     opacity: 1;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    /* margin-block-start: 0em; */
+    /*  margin-block-end: 0em; */
 }
 
 h2 {
     font-size: 1.6em;
     font: bold;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    /*  margin-block-start: 0em;
+    margin-block-end: 0em; */
     padding-bottom: 0.4em;
 }
 
@@ -325,8 +325,8 @@ h2 {
 
 p {
     text-align: center;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    /* margin-block-start: 0;
+    margin-block-end: 0; */
     font-size: 1.2em;
     padding-bottom: 10px;
 }
@@ -625,8 +625,8 @@ p {
         font: bold;
         color: #FFFFFF;
         opacity: 1;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
+        /*  margin-block-start: 0em;
+        margin-block-end: 0em; */
     }
     h2 {
         font-size: 1.3em;
@@ -792,14 +792,14 @@ p {
         font: bold;
         color: #FFFFFF;
         opacity: 1;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
+        /*     margin-block-start: 0em;
+        margin-block-end: 0em; */
     }
     h2 {
         font-size: 1.2em;
         font: bold;
-        margin-block-start: 0em;
-        margin-block-end: 0em;
+        /* margin-block-start: 0em;
+        margin-block-end: 0em; */
         padding-bottom: 0.4em;
     }
     .personal-data {
