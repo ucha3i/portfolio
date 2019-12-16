@@ -100,6 +100,16 @@ h2 {
     width: 50px;
 }
 
+.description a {
+    text-decoration: none;
+    color: #FA382F;
+}
+
+.description a:visited {
+    text-decoration: none;
+    color: #FA382F;
+}
+
 .tech {
     height: 200px;
     display: flex;
