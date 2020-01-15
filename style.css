@@ -587,7 +587,7 @@ p {
     }
     .skillset {
         width: 79vh;
-        height: 350px;
+        /* height: 350px; */
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -879,7 +879,7 @@ p {
         display: none;
     }
     .additional-grey {
-        height: 300px;
+        height: 310px;
         background: #F4F4F4 0% 0%;
         display: flex;
         flex-direction: column;
@@ -907,18 +907,18 @@ p {
         display: none;
     }
     .additional-white {
-        height: 210px;
+        height: 200px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .skills {
         height: 460px;
         background: #F4F4F4 0% 0% no-repeat padding-box;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .skillset {
         width: 43vh;
