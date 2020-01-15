@@ -457,7 +457,7 @@ p {
         height: 200px;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-evenly;
     }
     .skillset .skills-group-1 {
@@ -590,7 +590,7 @@ p {
         /* height: 350px; */
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-evenly;
     }
     .skillset .skills-group-1 {
