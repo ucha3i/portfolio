@@ -412,7 +412,7 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .projects {
         height: 900px;
@@ -541,7 +541,7 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .projects {
         display: none;
@@ -552,7 +552,7 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .add-section-title {
         display: none;
@@ -566,7 +566,7 @@ p {
         padding-right: 10px;
         padding-bottom: 2px;
         padding-left: 10px;
-        margin: 10px
+        margin: 15px
     }
     .posts {
         display: none;
@@ -576,7 +576,7 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .skills {
         height: 500px;
@@ -609,8 +609,7 @@ p {
         text-align: center;
     }
     .new-skills-group {
-        font-size: 1em;
-        padding-top: 2em;
+        display: none;
     }
     .big-links {
         height: 270px;
