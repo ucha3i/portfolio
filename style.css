@@ -579,14 +579,14 @@ p {
         /* justify-content: space-evenly; */
     }
     .skills {
-        height: 500px;
+        height: 350px;
         background: #F4F4F4 0% 0% no-repeat padding-box;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .skillset {
-        width: 82vh;
+        width: 79vh;
         height: 350px;
         display: flex;
         flex-wrap: wrap;
@@ -869,11 +869,11 @@ p {
         width: 9%;
     }
     .tech {
-        height: 200px;
+        height: 230px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .projects {
         display: none;
@@ -884,7 +884,7 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        /* justify-content: space-evenly; */
     }
     .add-section-title {
         display: none;
@@ -901,19 +901,20 @@ p {
         padding-right: 10px;
         padding-bottom: 2px;
         padding-left: 10px;
+        margin: 12px;
     }
     .posts {
         display: none;
     }
     .additional-white {
-        height: 240px;
+        height: 210px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
     }
     .skills {
-        height: 500px;
+        height: 460px;
         background: #F4F4F4 0% 0% no-repeat padding-box;
         display: flex;
         align-items: center;
@@ -940,8 +941,7 @@ p {
         display: none;
     }
     .new-skills-group {
-        font-size: 1em;
-        padding-top: 0.6em;
+        display: none;
     }
     .big-links {
         height: 220px;
